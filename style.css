@@ -1,0 +1,102 @@
+body {
+    background-color: darkgray;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    margin: 0 auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    height: 100%;
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(133, 133, 133, 0.7);
+    left: 0;
+    text-align: center;
+}
+
+.footercontent {
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    margin: 1rem;
+    height: 36px;
+    position:relative;
+    top:0;
+}
+
+.menu {
+    display: inline-block;
+    border: 3px solid green;
+    width: 25%;
+    background-color: gray;
+    margin: 1rem auto;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #555;
+}
+
+.menu li {
+    margin-bottom: 10px;
+    border: 1px solid #555;
+}
+
+/*DROPDOWN*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/*END DROPDOWN*/
+
+.about {
+    display: inline-block;
+    border: 3px solid green;
+    width: 70%;
+    background-color: aquamarine;
+    margin: 1rem auto;
+}
+
+.blog {
+    display: block;
+    width: 80%;
+    border: 3px solid grey;
+    margin: 5px auto;
+    background-color: white;
+}
+
+.blog h3 {
+    text-align: center;
+}
