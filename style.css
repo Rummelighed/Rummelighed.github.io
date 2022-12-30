@@ -9,7 +9,7 @@ h1 {
 
 .content {
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
     border: 3px solid green;
     padding: 10px;
     height: 100%;
@@ -23,16 +23,25 @@ footer {
     background-color: rgb(133, 133, 133, 0.7);
     left: 0;
     text-align: center;
+    /*Align content equally centered*/
+    display: flex;
+    justify-content: center;
 }
 
 .footercontent {
-    display: inline-block;
+    /*Align content equally centered*/
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
     color: black;
     font-weight: bold;
     margin: 1rem;
-    height: 36px;
-    position:relative;
-    top:0;
+}
+
+.footercontent p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .menu {
